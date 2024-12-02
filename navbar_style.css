@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 200px; /* Set the width of the navbar */
+    background-color: #333; /* Background color of the navbar */
+    position: fixed; /* Fixed position to stay in place */
+    height: 100%; /* Full height */
+    padding-top: 20px; /* Padding at the top */
+}
+
+.navbar h2 {
+    color: rgb(43, 5, 255); /* Color of the title */
+    text-align: center; /* Center the title */
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    color:blue;
+}
+
+.navbar ul li {
+    padding: 15px; /* Padding for each list item */
+}
+
+.navbar ul li a {
+    color: rgb(231, 243, 5); /* Color of the links */
+    text-decoration: none; /* Remove underline from links */
+    display: block; /* Make the link fill the entire list item */
+}
+
+.navbar ul li a:hover {
+    background-color: #0c0000; /* Change background on hover */
+}
